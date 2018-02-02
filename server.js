@@ -34,7 +34,7 @@ hbs.registerHelper('currentYear', () => new Date().getFullYear());
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        title: 'Home Page!',
+        title: 'Home Page!!!!!',
         text: 'This is a text of home page!'
     });
 });
